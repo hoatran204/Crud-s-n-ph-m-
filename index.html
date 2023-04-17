@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <h1>CRUD INFORMATION </h1>
+    <form>
+        <div>
+            <p>Name</p>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <p>Price (VND)</p>
+            <input type="number" name="price" id="price">  
+        </div>
+        <div>
+            <p>orther</p>
+            <input type="text" name="orther" id="orther">
+        </div>
+        <button type="button" class="submit" id="submit">submit</button>
+    </form>
+    <table>
+        <tr>
+            <td>id</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Orther</td>
+            <td>Action</td>
+        </tr>
+        <tbody id="tbody">
+            <tr>
+              <td>1</td>
+              <td>Nam</td>
+              <td>nam@gmail.com</td>
+              <td>20</td>
+              <td>
+                <button class="btn">Edit</button>
+                <button class="btn">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+    </table>
+</body>
+</html>
